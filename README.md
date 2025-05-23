@@ -22,7 +22,7 @@ Submit button disabled until all fields are valid
 
 Redirects to a success page with entered data on successful submission
 
-# Form Fields
+# 📝 Form Fields
 
 First Name
 
@@ -45,7 +45,7 @@ PAN Number
 Aadhar Number
 
 # 📁 Folder Structure
-
+```
 Form_validation/
 ├── src/
 │   ├── App.jsx
@@ -58,17 +58,17 @@ Form_validation/
 ├── vite.config.js
 ├── .gitignore
 └── README.md
-
+```
 # Navigate into the project:
-
+```
 cd Form_validation
-
+```
 # Install dependencies:
-
+```
 npm install
-
+```
 # Start the development server:
-
+```
 npm run dev
-
+```
 
