@@ -1,12 +1,74 @@
-# React + Vite
+# React Form Validation Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application built with Vite that features a registration form with built-in validation (no third-party libraries). It validates user input, displays error messages, and shows the submitted data on a separate route after successful submission.
 
-Currently, two official plugins are available:
+# 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Built with React + Vite
 
-## Expanding the ESLint configuration
+Validates required fields (first name, last name, email, etc.)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Email and phone number format checks
+
+PAN and Aadhar number validation
+
+Country and city dropdown (dependent)
+
+Show/hide password toggle
+
+Error messages for each field
+
+Submit button disabled until all fields are valid
+
+Redirects to a success page with entered data on successful submission
+
+# Form Fields
+
+First Name
+
+Last Name
+
+Username
+
+Email
+
+Password (with show/hide)
+
+Phone Number (Country Code + Number)
+
+Country (Dropdown)
+
+City (Dropdown)
+
+PAN Number
+
+Aadhar Number
+
+# 📁 Folder Structure
+
+Form_validation/
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── FormPage.jsx
+│   ├── SuccessPage.jsx
+│   └── styles.css
+├── index.html
+├── package.json
+├── vite.config.js
+├── .gitignore
+└── README.md
+
+# Navigate into the project:
+
+cd Form_validation
+
+# Install dependencies:
+
+npm install
+
+# Start the development server:
+
+npm run dev
+
+
